@@ -1,0 +1,35 @@
+{
+  "name": "claude-wrapper",
+  "version": "1.0.0",
+  "description": "Claude Code智能包装器 - 自动处理Pro用户限制",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "claude": "dist/claude-wrapper.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "install-global": "npm install -g .",
+    "uninstall-global": "npm uninstall -g claude-wrapper"
+  },
+  "keywords": [
+    "claude-code",
+    "wrapper",
+    "auto-continue",
+    "pro-limits"
+  ],
+  "author": "Claude",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^3.11.0",
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "tsx": "^4.6.0"
+  }
+}
