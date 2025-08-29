@@ -18,7 +18,7 @@ if (-not $Quiet) {
 
 # GitHub仓库信息
 $GitHubRepo = "claude-code-auto-continue"
-$GitHubUser = "your-username"  # 这里需要替换为实际的GitHub用户名
+$GitHubUser = "zhakil"  # GitHub用户名
 $RepoUrl = "https://github.com/$GitHubUser/$GitHubRepo"
 
 # 检查管理员权限
